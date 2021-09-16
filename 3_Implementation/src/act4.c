@@ -1,4 +1,5 @@
 
+
 #include "act4.h"
 
 int i = 0;
@@ -23,52 +24,52 @@ char USARTRead(){
 
 void USARTWrite(uint16_t temp){
     if(temp>=0 && temp<=200){
-        unsigned char temperature[] = "Temperature is 20 degree Celsius"; /*duty cycle is 20%*/
+        unsigned char temper[] = "Temperature is 20 degree Celsius"; /*duty cycle is 20%*/
         i = 0;
-        while(temperature[i] != 0) /*print the String*/
+        while(temper[i] != 0) /*print the String*/
         {
             while (!( UCSR0A & (1<<UDRE0))); /*Wait for empty transmit buffer*/
-            UDR0 = temperature[i];            /*Put data into buffer, sends the data*/
+            UDR0 = temper[i];            /*Put data into buffer, sends the data*/
             i++;                             /*increment counter*/
         }
     }
     else if(temp>=210 && temp<=500){
-        unsigned char temperature[] = "Temperature is 25 degree Celsius"; /*duty cycle is 40%*/
+        unsigned char temper[] = "Temperature is 25 degree Celsius"; /*duty cycle is 40%*/
         i = 0;
-        while(temperature[i] != 0) /*print the String*/
+        while(temper[i] != 0) /*print the String*/
         {
             while (!( UCSR0A & (1<<UDRE0))); /*Wait for empty transmit buffer*/
-            UDR0 = temperature[i];            /*Put data into buffer, sends the data*/
+            UDR0 = temper[i];            /*Put data into buffer, sends the data*/
             i++;                             /*increment counter*/
         }
     }
     else if(temp>=510 && temp<=700){
-        unsigned char temperature[] = "Temperature is 29 degree Celsius"; /*duty cycle is 70%*/
+        unsigned char temper[] = "Temperature is 29 degree Celsius"; /*duty cycle is 70%*/
         i = 0;
-        while(temperature[i] != 0) /*print the String*/
+        while(temper[i] != 0) /*print the String*/
         {
             while (!( UCSR0A & (1<<UDRE0))); /*Wait for empty transmit buffer*/
-            UDR0 = temperature[i];            /*Put data into buffer, sends the data*/
+            UDR0 = temper[i];            /*Put data into buffer, sends the data*/
             i++;                             /*increment counter*/
         }
     }
     else if(temp>=710 && temp<=1024){
-        unsigned char temperature[] = "Temperature is 33 degree Celsius"; /*duty cycle is 95%*/
+        unsigned char temper[] = "Temperature is 33 degree Celsius"; /*duty cycle is 95%*/
         i = 0;
-        while(temperature[i] != 0) /*print the String*/
+        while(temper[i] != 0) /*print the String*/
         {
             while (!( UCSR0A & (1<<UDRE0))); /*Wait for empty transmit buffer*/
-            UDR0 = temperature[i];            /*Put data into buffer, sends the data*/
+            UDR0 = temper[i];            /*Put data into buffer, sends the data*/
             i++;                             /*increment counter*/
         }
     }
     else{
-        unsigned char temperature[] = "Temperature is not within the limit";  /*duty cycle is 100%*/
+        unsigned char temper[] = "Temperature is not within the limit";  /*duty cycle is 100%*/
         i = 0;
-        while(temperature[i] != 0) /*print the String*/
+        while(temper[i] != 0) /*print the String*/
         {
             while (!( UCSR0A & (1<<UDRE0))); /*Wait for empty transmit buffer*/
-            UDR0 = temperature[i];            /*Put data into buffer, sends the data*/
+            UDR0 = temper[i];            /*Put data into buffer, sends the data*/
             i++;                             /*increment counter*/
         }
     }

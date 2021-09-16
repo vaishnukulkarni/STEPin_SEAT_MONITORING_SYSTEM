@@ -1,2 +1,2 @@
-# Blinky Project In Action
+# SIMULATION OF SEAT MONITORING SYSTEM
 

@@ -1,13 +1,13 @@
-##RESULTS
+RESULTS
 
-##ACTIVITY1
+ACTIVITY1
 
-##ON
+ON
 
 <img width="315" alt="act1on" src="https://user-images.githubusercontent.com/89645779/133601377-fb2ea094-cf61-46c8-a891-dc9210155dc6.PNG">
 
 
-##OFF
+OFF
 
 <img width="330" alt="act1off" src="https://user-images.githubusercontent.com/89645779/133601395-2ee429e9-df17-40e5-9513-df1e955a4e20.PNG">
 

@@ -16,7 +16,8 @@ Led Actuator shows the driver is seated.
 Once the driver is seated on the temperature will send a request and there on heater will be turned on.
    
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![SWOT](https://user-images.githubusercontent.com/89645779/133600861-5efaeee2-0901-4e27-828f-cd1649c57d66.jpg)
+
 
 # 4W&#39;s and 1&#39;H
 

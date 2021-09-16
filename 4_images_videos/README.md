@@ -12,12 +12,12 @@ OFF
 <img width="330" alt="act1off" src="https://user-images.githubusercontent.com/89645779/133601395-2ee429e9-df17-40e5-9513-df1e955a4e20.PNG">
 
 
-##ACTIVITY2
+ACTIVITY2
 
 <img width="296" alt="act2" src="https://user-images.githubusercontent.com/89645779/133601417-da6461ee-594f-4fea-bb9d-439711129182.PNG">
 
 
-##ACTIVITY3
+ACTIVITY3
 
 <img width="356" alt="act3" src="https://user-images.githubusercontent.com/89645779/133601422-e2365ee9-efa5-4317-b9f9-6ad27b4dfd91.PNG">
 

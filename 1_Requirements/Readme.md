@@ -43,9 +43,9 @@ To implement it so to proviode safetu and comfort for the driver in colder or eu
 ## High Level Requirements:
 | ID | Description |   Status (Implemented/Future) |
 | ------ | --------- |   ----- |
-| HR01 |Button Sensor will check the passenger is seated or not .| HR01 | IMPLEMENTED |
-| HR02 | Display CDD-CRO wil give the temperature value by showing PWM . | HR02 |  IMPLEMENTED  |
-| HR03 |Led Actuator shows the driver is seated. | HR03 |  IMPLEMENTED  |
+| HR01 |Button Sensor will check the passenger is seated or not .|  IMPLEMENTED |
+| HR02 | Display CDD-CRO wil give the temperature value by showing PWM . |   IMPLEMENTED  |
+| HR03 |Led Actuator shows the driver is seated. |   IMPLEMENTED  |
 
 
 ##  Low level Requirements:
